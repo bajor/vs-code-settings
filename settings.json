@@ -44,8 +44,8 @@
     "<C-p>": false,
     "<C-a>": false,
     "<C-f>": true,
-    "<C-c>": false
-    // "<C-v>": false
+    "<C-c>": false,
+    "<C-v>": false
   },
 
   "vim.useCtrlKeys": true,
