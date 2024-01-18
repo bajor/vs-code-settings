@@ -38,9 +38,9 @@
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
   "vim.handleKeys": {
-    "<C-j>": true,
+    "<space-j>": true,
+    "<space-k>": true,
     "<C-l>": false,
-    "<C-k>": false,
     "<C-p>": false,
     "<C-a>": false,
     "<C-f>": true,
@@ -133,15 +133,6 @@
         }
       ]
     },
-    {
-      "before": ["<C-e>"],
-      "after": [],
-      "commands": [
-        {
-          "command": "workbench.files.action.focusFilesExplorer"
-        }
-      ]
-    }
   ],
   "telemetry.telemetryLevel": "off",
   "extensions.ignoreRecommendations": true,
