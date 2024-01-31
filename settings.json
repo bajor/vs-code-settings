@@ -45,7 +45,7 @@
     "<C-a>": false,
     "<C-f>": true,
     "<C-c>": false,
-    "<C-v>": true
+    "<C-v>": false
   },
 
   "vim.useCtrlKeys": true,
@@ -54,7 +54,7 @@
     {
       "before": ["j", "k"],
       "after": ["<Esc>"]
-    },
+    }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -132,7 +132,7 @@
           "command": ":nohl"
         }
       ]
-    },
+    }
   ],
   "telemetry.telemetryLevel": "off",
   "extensions.ignoreRecommendations": true,
@@ -140,6 +140,11 @@
   "editor.inlineSuggest.enabled": true,
   "terminal.integrated.inheritEnv": false,
   "python.analysis.extraPaths": [],
+   "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+       }
+     },
   "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "go.toolsManagement.autoUpdate": true,
