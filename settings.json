@@ -6,7 +6,7 @@
   "editor.overviewRulerBorder": false,
   "editor.roundedSelection": false,
   "editor.minimap.enabled": false,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
   "editor.autoClosingBrackets": "never",
   "editor.formatOnSave": true,
   "editor.tabSize": 4,
@@ -142,8 +142,8 @@
   "python.analysis.extraPaths": [],
    "[python]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-       }
+      "source.organizeImports": "explicit"
+    }
      },
   "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
