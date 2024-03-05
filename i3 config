@@ -187,15 +187,6 @@ mode "resize" {
 
 }
 
-# screen brightness
-bindcode $mod+F2 exec sudo brightnessctl set 10%-
-bindcode $mod+F3 exec sudo brightnessctl set 10%+
-
-# screenshots
-bindsym Print exec scrot
-bindsym $mod+Print exec scrot -u
-bindsym Shift+Print exec scrot -s
-
 # Turn off the screen after 30 minutes of inactivity
 exec --no-startup-id xset s 1800 1800
 exec --no-startup-id xset dpms 0 0 1800
